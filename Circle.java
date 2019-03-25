@@ -1,4 +1,4 @@
-package methods;
+
 import java.util.Scanner;
 
 
@@ -13,6 +13,8 @@ public class Circle {
 		double area;
 		double circumference;
 		 System.out.print("Enter radius value:");
+
+		 //This should have been done in seperate methods, not in the main method
 
         radius=input.nextInt();
 
